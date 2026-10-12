@@ -58,12 +58,12 @@
 |---|---|---|---|---|
 | 2024 | OPENPichia：从可公开菌株重建免许可底盘，*hoc1* 截短提高转化率，并改善部分蛋白分泌 | 知识产权和细胞壁甘露聚糖会限制平台扩散；分泌收益不是全蛋白的 | 不是新的高分泌机理，也没有生物反应器多蛋白基准 | A（资源论文）/ B（分泌收益的普遍性） |
 | 2024 | 分泌组 CRISPR 敲除，最多 11 个非必需分泌蛋白 | 6 个敲除可在微孔板把 HSA 产量和比产率提高约 20 倍；曲妥珠单抗在摇瓶约 2 倍；再敲到 11 个会伤害生长 | 没有给出补料分批的绝对滴度；不能当成“减分泌组就普遍提高一个数量级” | B |
-| 2025-02 | Ribo-seq 指导敲除高核糖体占用的非必需内质网靶向蛋白（bioRxiv） | 三敲除使 HSA 提高 35%。预印本 | 未同行评议；增幅远小于上面的分泌组结果，说明靶点选择和培养条件决定结论 | D（预印本） |
+| 2025 | Ribo-seq 指导敲除高核糖体占用的非必需内质网靶向蛋白 | 三敲除使 HSA 提高约 35%；部分双敲低于亲本 | 增幅远小于分泌组结果。定量核对自预印本全文，期刊排版版未逐图打开 | C |
 | 2025 | 早期分泌通路的蛋白特异性组合（Xu 等） | 信号肽、3′ UTR、内质网扩张、ERAD 和囊泡运输叠加后 5.2–6.4 倍，最优组合因蛋白而异 | 摘要未给绝对滴度和规模 | B |
 | 2025 | 大豆血红蛋白信号肽 V50A 与补料策略 | 相对 α 交配因子信号肽分泌效率 +151%；5 L 发酵罐中滴度从 656.5 mg/L 提到 1.1 g/L | 这是研究菌株的分泌过程，不等于 Impossible Foods 的商业胞内工艺 | B |
 | 2026 | 碱性蛋白酶 PrtA：定向进化 + 原本面向大肠杆菌的深度学习模型 MPEPE + 信号肽 | I342D 约 1.48 倍；双突变约 1.84 倍；自身信号肽在 15 L 补料分批达到 4807.5 U/mL | 摘要写 1.5 g/L，正文写 15 g/L，质量浓度不可用。模型也不是在酵母分泌数据上训练的 | C |
 | 2024 | 碱性 pH 启动子驱动无甲醇植酸酶 | 在该文条件下，进化后的 pPHO89 菌株可以接近或超过其单拷贝 pAOX1 对照 | 不能与工业补料分批的数十克每升直接比较 | B |
-| 2025–2026 | 解脂耶氏酵母信号肽的机器学习设计；酿酒酵母分泌元件筛选工具包 | 说明“预测 + 建库”正在进入实验 | 本次未打开原文图表，不转述倍数 | C |
+| 2025 | 解脂耶氏酵母 XPR2 前导序列进化与机器学习 | 447 个突变体中 Nanoluc 最高约 2.91 倍 | 换成另外三种酶后排序不通用；模型不代替筛选 | B |
 
 来源：[OPENPichia](https://www.nature.com/articles/s41564-023-01574-w)；[分泌组筛选](https://link.springer.com/article/10.1186/s12934-024-02466-2)；[Ribo-seq 预印本](https://www.biorxiv.org/content/10.1101/2025.02.12.637931v1)；[Xu 等](https://pubs.acs.org/doi/abs/10.1021/acs.jafc.5c03402)；[LegH 信号肽](https://www.sciencedirect.com/science/article/abs/pii/S1359511325001813)；[PrtA](https://link.springer.com/article/10.1186/s12934-026-02978-z)；[碱性 pH 启动子](https://link.springer.com/article/10.1186/s12934-024-02362-9)；[2025 Ribo-seq 与相关书目](https://exa.ai/library/publication/zrsfh6ptkqm)。
 
@@ -107,6 +107,8 @@ DNA 转录 → mRNA 加工与稳定性 → 翻译起始与延伸 → 信号识�
 **分泌通路容量不足**的实验图像是：mRNA 和胞内总蛋白继续增加，胞外产物不再增加；未折叠蛋白、BiP/PDI、Hac1 剪切形式上升；错误折叠产物进入 ERAD 或液泡；有时细胞生长变慢。高拷贝 AOX1 菌株里，辅助基因如果也用 AOX1，还会和目的基因抢转录资源。*Metabolites* 2022 综述转述的一个淀粉酶例子很具体：12 拷贝目的基因、基础活性 305 U/mL；再用 AOX1 驱动 6 拷贝 *HAC1*，活性到 2200 U/mL；把 *HAC1* 换成组成型 GAP 启动子后到 3700 U/mL。作者的解释是过多 AOX1 启动子拷贝限制了目的基因转录。[*Metabolites* 2022](https://www.mdpi.com/2218-1989/12/4/346)。
 
 这两类问题的工程处方相反。前者该加表达。后者再加表达会增加内质网压力和聚集。判断错类别，是这个领域大量“策略在甲蛋白有效、在乙蛋白无效”的直接原因。
+
+还有第三种容易被误写成“内质网容量不够”的失败。Cámara 等 2017 年在 *Scientific Reports* 报告，AOX1 表达盒拷贝增加后，甲醇代谢基因转录下降，胞外脂肪酶下降，但胞内不溶产物并不高，作者认为不是强 UPR。[Cámara 等](https://doi.org/10.1038/srep44302)。Edwards-Jones 等 2015 年发现，同一高拷贝胰蛋白酶原在试管里表现为严重 UPR，在补料分批里则是 HAC1 诱导弱、更像翻译停滞。[Edwards-Jones 等](https://doi.org/10.1371/journal.pone.0119637)。高拷贝失败因此至少有两条路：产物堵在内质网，或者甲醇转录因子和翻译被稀释。只测一个 UPR 基因不够。
 
 ---
 
@@ -161,7 +163,9 @@ DNA 转录 → mRNA 加工与稳定性 → 翻译起始与延伸 → 信号识�
 
 2018 年 *Scientific Reports* 的一株工程菌在 10 L 罐中，89 小时脂肪酶 16420 U/mL，作者换算为 4.13 g/L，同期单细胞蛋白 151.2 g/L。[Scientific Reports 2018](https://www.nature.com/articles/s41598-018-19238-9)。2023 年另一项放大在 30 L 和 100 L 报告了 11100 U/mL 和 8532 U/mL 的胞外脂肪酶活性，以及约 170 g/L 干细胞重量，但没有把活性一律换成克每升蛋白。[Fermentation 2023](https://www.mdpi.com/2311-5637/9/3/268)。
 
-这些数字说明耶氏酵母可以在工业相关规模上大量分泌**它擅长的酶**。它们不说明耶氏酵母已经在抗体、细胞因子或复杂人源蛋白上超过毕赤酵母。2026 年一篇非常规酵母综述认为部分非常规酵母“可以达到甚至超过”酿酒酵母和毕赤酵母，这是综述判断，不是同一蛋白、同一工艺的对照实验。[Systems Microbiology and Biomanufacturing 2026](https://journal.hep.com.cn/smab/EN/10.1007/s43393-026-00469-1)。证据等级：利基优势为 B，全面替代为 D。
+更有对照意义的是同一酶、同一碳摩尔的批次发酵。Theron 等 2020 年比较南极假丝酵母脂肪酶 B：毕赤酵母的 mRNA 大约高 7 倍，72 小时的胞外比活性却是耶氏酵母更高（5540 对 1066 U/mg 干细胞）。作者把差距联系到毕赤酵母侧的内质网相关降解。这是一个蛋白、一种工艺，不是宿主总排名。[Theron 等，*Scientific Reports* 2020](https://www.nature.com/articles/s41598-020-58683-3)。
+
+这些数字说明耶氏酵母可以在工业相关规模上大量分泌**它擅长的酶**，并且在至少一种疏水酶上，转录更强的毕赤酵母没有得到更高的胞外比活性。它们不说明耶氏酵母已经在抗体、细胞因子或复杂人源蛋白上超过毕赤酵母。2026 年一篇非常规酵母综述认为部分非常规酵母“可以达到甚至超过”酿酒酵母和毕赤酵母，这是综述判断，不是同一蛋白、同一工艺的对照实验。[Systems Microbiology and Biomanufacturing 2026](https://journal.hep.com.cn/smab/EN/10.1007/s43393-026-00469-1)。证据等级：利基优势为 B，全面替代为 D。
 
 ### 4.5 其他宿主
 
@@ -179,7 +183,9 @@ DNA 转录 → mRNA 加工与稳定性 → 翻译起始与延伸 → 信号识�
 
 毕赤酵母中，终止子库已被做到约 17 倍的表达强度窗口（Ito 等 2020，由 FEMS 2025 综述转述）。启动子的工业意义不只是“更强”，而是**可关断**。组成型强表达在种子扩增时就开始消耗折叠容量；诱导系统把负担推迟到生产期。无甲醇系统试图保留这种开关，同时去掉甲醇。VALIDOGEN 的公司页面称，改造的 AOX1 变体和合成启动子可以在甘油或葡萄糖上保持受控的高强度表达。这是公司技术说明，不是独立重复实验。[VALIDOGEN](https://www.validogen.com/technology/unlock-pichia-technology/methanol-free-protein-expression)。学术上，碱性 pH 响应的 pTSA1、pHSP12、pPHO89 已被用来在无甲醇条件下分泌植酸酶，调节很紧，但是实验规模与工业补料分批不同。[MCF 2024](https://link.springer.com/article/10.1186/s12934-024-02362-9)。
 
-**提高表达量不一定提高分泌量。** 证据 A。过度表达的可见后果是 UPR 激活、胞内聚集、比生长速率下降，以及高拷贝菌株在无选择压力时丢失拷贝。密码子优化通常只在原序列明显不适合宿主时有中等收益，不能替代折叠瓶颈。也存在相反证据：翻译容量不足时，提高翻译可以增加分泌（Staudacher 2022）。所以启动子工程的正确用法是把转录调到通路容量附近，而不是调到最大。
+**提高表达量不一定提高分泌量。** 证据 A。Gasser 等 2006 年发现，两种抗 HIV Fab 在 AOX1 下几乎不分泌，换成 GAP 启动子配合 α 因子后才分泌；组成型 Hac1 大约 1.3 倍，酿酒酵母 PDI 大约 1.9 倍。[Gasser 等](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/bit.20851)。Love 等 2012 年的单细胞测量更直接：更强的 pAOX1 把三种蛋白的单细胞分泌速率中位数降低 2–4 倍，加拷贝后进一步下降，而且不分泌的细胞多数仍然活着。[Love 等](https://doi.org/10.1371/journal.pone.0037915)。过度表达的可见后果因此包括 UPR、胞内聚集、甲醇代谢被稀释，以及高拷贝丢失。密码子优化通常只在原序列明显不适合宿主时有中等收益；翻译变快之后，限速可以转到转位和折叠。也存在相反证据：翻译容量不足时，提高翻译可以增加分泌（Staudacher 2022）。所以启动子工程的正确用法是把转录调到通路容量附近，而不是调到最大。
+
+无甲醇并不自动更高产。Wang 等 2017 年在 5 L 罐里比较同一胰岛素前体：甲醇野生型 4.20 g/L，敲除三个阻遏因子并过表达 Mit1 的无甲醇过程 2.46 g/L，约为甲醇工艺的 59%，耗氧更低。[Wang 等，*Scientific Reports* 2017](https://www.nature.com/articles/srep41850)。Garrigós-Martínez 等 2021 年则表明，去阻遏的 PDF 和组成型 UPP 在恒化中的 CalB 比生产速率可以比 GAP 高约 4–9 倍，15 L 补料分批同样成立，但高转录会拉高 UPR，低到中等的比生长速率更合适。[Garrigós-Martínez 等](https://doi.org/10.1186/s12934-021-01564-9)。无甲醇系统的已核实收益是安全和氧耗，不是在每一个蛋白上超过优化过的 AOX1。
 
 ### 5.2 信号肽
 
@@ -189,10 +195,12 @@ DNA 转录 → mRNA 加工与稳定性 → 翻译起始与延伸 → 信号识�
 
 - **天然信号肽**在货物来自相似分泌环境时往往很好。PrtA 的自身信号肽、去掉 pro 区的 α 因子、以及血清白蛋白信号肽，都能把组合突变体的分泌再提高约一倍；完整 α 因子 pro 区则明显变差。15 L 罐中，自身信号肽菌株达到 4807.5 U/mL。[PrtA，MCF](https://link.springer.com/article/10.1186/s12934-026-02978-z)。
 - **宿主内源信号肽**可以被毕赤酵母识别。2022 年对 40 个不同酵母的 α 因子信号和 32 个毕赤酵母内源信号肽、以 EGFP 为报告蛋白的筛选中，多数 α 因子信号可用，*Wickerhamomyces ciferrii* 的信号优于酿酒酵母；24/32 个内源信号肽能分泌 EGFP，其中 chr3_1145 和 FragB_0048 接近酿酒酵母 α 因子。报告蛋白是 EGFP，不能外推到多二硫键蛋白。[Biotechnology for Biofuels and Bioproducts 2022](https://link.springer.com/article/10.1186/s13068-022-02243-6)。
-- **共翻译型杂合信号肽**（Ost1 pre 与 α 因子 pro 的组合）对一些在翻译后转位中失败的蛋白有帮助。对另一些蛋白，例如上述 secalin，带 pro 区的构建使胞内行为变差。
+- **共翻译型杂合信号肽**（Ost1 pre 与 α 因子 pro 的组合）对一些在翻译后转位中失败的蛋白有帮助。Fitzgerald 与 Glick 2014 年说明，能在胞质里折叠的荧光蛋白会被 α 因子挡在内质网外面，Ost1 信号序列改走共翻译转位。[Fitzgerald 与 Glick](https://doi.org/10.1186/s12934-014-0125-0)。Barrero 等 2018 年在单拷贝、甲醇诱导 48 小时的条件下，Ost1 加改造 pro 区使 E2-Crimson 最高约 20 倍、脂肪酶 BTL2 约 10 倍。这是同一研究线的模型蛋白，作者自己把结论限制在胞质可折叠或易聚集的货物上。[Barrero 等](https://doi.org/10.1186/s12934-018-1009-5)。对另一些蛋白，例如上述 secalin，带 pro 区的构建使胞内行为变差。
 - **序列–功能关系尚未收敛成一个可迁移的预测器。** 同一信号肽在 EGFP、酶、白蛋白和抗体片段上的排序经常不一致。这是蛋白特异性的核心证据（A）。
 
-高通量筛选正在改变经验模式的前半段：不再只试 α 因子和两三个天然信号肽，而是试几十个。机器学习尚未改变后半段。2025 年解脂耶氏酵母有信号肽机器学习设计论文，本次未核对实验倍数。2026 年 PrtA 使用的 MPEPE 原本是大肠杆菌表达预测模型（Ding 等，*Computational and Structural Biotechnology Journal* 2022），被用来提名成熟肽突变，随后在酵母里实验验证。它没有取代信号肽筛选；信号肽仍是九个候选的实验比较。证据等级：高通量实验筛选为 B，生成式信号肽设计替代筛选为 C 到 D。
+高通量筛选正在改变经验模式的前半段：不再只试 α 因子和两三个天然信号肽，而是试几十个。机器学习尚未改变后半段。SignalP 6.0 预测的是信号肽有无和切割位点，官方说明写明：有信号肽只代表进入分泌通路，不代表一定会被分泌。[SignalP 6.0](https://doi.org/10.1038/s41587-021-01156-3)；[FAQ](https://services.healthtech.dtu.dk/services/SignalP-6.0/5-FAQ.php)。Wu 等 2025 年在解脂耶氏酵母里进化 XPR2 前导序列，447 个突变体中 Nanoluc 上清最高约 2.91 倍；换成 β-半乳糖苷酶、α-淀粉酶和 PET 水解酶后，排序不再通用。模型用在筛选之后做分类，不代替筛选。[Wu 等](https://pmc.ncbi.nlm.nih.gov/articles/PMC12348225/)。2026 年 PrtA 使用的 MPEPE 原本是大肠杆菌表达预测模型（Ding 等，*Computational and Structural Biotechnology Journal* 2022），被用来提名成熟肽突变，随后在酵母里实验验证。它没有取代信号肽筛选。证据等级：高通量实验筛选为 B，生成式信号肽设计替代筛选为 C 到 D。
+
+筛选本身也会造出假的“基因组命中”。Ito 等方向 2022 年用随机插入筛了超过 19,000 株抗溶菌酶抗体片段，四个基因敲除在重建后给摇瓶约 3 倍滴度、约 5 倍比产率；最初那个大约 6 倍的冠军克隆含有 α 因子 V50A，基因敲除重建不能重复。信号肽突变被当成了多基因编辑的功劳。[Communications Biology 2022](https://doi.org/10.1038/s42003-022-03475-w)。
 
 ### 5.3 内质网折叠容量
 
@@ -202,19 +210,27 @@ DNA 转录 → mRNA 加工与稳定性 → 翻译起始与延伸 → 信号识�
 - Kar2 对一些酶有中等帮助。FEMS 2025 综述转述 Sun 等 2017：过表达 Kar2 使 β-半乳糖苷酶分泌增加 57.5%。
 - Hac1 不是总开关。组成型或过强 UPR 会上调大量非目的基因、改变脂质和细胞壁、降低生长。只在折叠真是瓶颈、且激活强度与目的蛋白匹配时才有用。*Metabolites* 2022 综述收集的多个例子支持“常常有用，但启动子和拷贝数决定方向”。
 
-**单纯激活 UPR 不总能提高产量**，因为 UPR 同时做三件互相牵制的事：增加折叠容量、降低翻译、加速降解。如果产物的问题是转位或囊泡运输，UPR 帮不上，还会增加负担。如果产物已经能折叠，额外 UPR 只是代谢成本。过度激活导致生长变慢和分泌下降是真实风险，不是理论担忧（证据 B，案例分散但方向一致）。
+Guerfal 等 2010 年把这个区别做得很具体：诱导型剪接 Hac1 使小鼠 IL-10 最高约 2.2 倍、转唾液酸酶最高约 2.1 倍，组成型只有轻微或没有效应，而且诱导型始终强于组成型。该文的诱导型过表达没有看到明显生长缺陷，但持续 UPR 会连带打开降解并压低翻译，后续蛋白上可以减慢生长。[Guerfal 等](https://doi.org/10.1186/1475-2859-9-49)。
+
+内质网变大也不是免费容量。de Ruijter 等 2016 年敲除酿酒酵母 *OPI1*，使磷脂合成持续打开，内质网面积约 1.5 倍，全长 IgG 比产量最高约 4–4.8 倍，产抗体时最大比生长速率从 0.110/h 降到 0.065/h。同一背景下再加 PDI、Ero1 或 Kar2，效果温和或没有。[de Ruijter 等](https://doi.org/10.1186/s12934-016-0488-5)。解脂耶氏酵母里单独敲 *PAH1* 不能提高 T4 溶菌酶，要配上 ERV29 才有用。[Wang 与 Blenner，2022](https://doi.org/10.1186/s12934-022-01863-9)。
+
+**单纯激活 UPR 不总能提高产量**，因为 UPR 同时做三件互相牵制的事：增加折叠容量、降低翻译、加速降解。如果产物的问题是转位或囊泡运输，UPR 帮不上，还会增加负担。如果产物已经能折叠，额外 UPR 只是代谢成本。过度激活导致生长变慢和分泌下降是真实风险，不是理论担忧（证据 A 的方向，B 的蛋白覆盖面）。
 
 ### 5.4 囊泡运输
 
 近五年的运输工程多数是中等幅度、蛋白特异的改进，不是数量级跃迁。FEMS 2025 综述转述：Sbh1 过表达使抗体片段 HyHEL-Fab 分泌增加 4 倍以上（Marsalek 等 2019）；信号识别颗粒组分使透明质酸酶分泌增加 48%（Zhang 等 2024）；双向囊泡运输平衡使人乳铁蛋白增加 38.5%（Wang 等 2024）；运输因子共表达使木聚糖酶增加 9.6%（Liu 等 2024）。Xu 等 2025 把运输和 ERAD、膜扩张放进组合，单层干预大约 1.8–4.0 倍，和信号肽叠加后 5.2–6.4 倍。
 
-这些结果支持两个判断。第一，内质网之后的物流可以成为瓶颈，尤其当前面的折叠被放开之后。第二，单基因运输工程的期望值通常是百分之几十，不是十倍。把“增强 Sec 或 SNARE”写成通用高分泌策略，证据不够（B 级的蛋白特异观察，不是 A 级的广谱杠杆）。
+酿酒酵母里有更干净的剂量实验。Bao 等 2017 年用中等强度表达 *SEC16*，α-淀粉酶分泌产率约 2 倍，内质网出口位点变多，应激下降；高拷贝强启动子过表达 *SEC16* 不增加分泌，与 Sec16 过多会堵住出内质网的经典遗传一致。同一菌株里过表达若干出胞基因没有显著提高 α-淀粉酶。[Bao 等](https://doi.org/10.1128/AEM.03400-16)。Huang 等 2018 年把转运、染色质和糖代谢组合起来，补料分批 156 小时得到真菌 α-淀粉酶 2.5 g/L、98.5 g/L 干细胞，相对亲本超过 5 倍，胞内滞留多数时间低于 10%。单个转运基因的贡献远小于整套组合，而且两个有益基因同时过表达会因为质粒负担抵消分泌增益。[Huang 等，*PNAS* 2018](https://doi.org/10.1073/pnas.1809921115)。
+
+这些结果支持两个判断。第一，内质网之后的物流可以成为瓶颈，尤其当前面的折叠被放开之后。第二，单基因运输工程的期望值通常是百分之几十到约 2 倍，不是十倍。数量级变化来自组合，而且组合仍然是蛋白特异的。把“增强一个 SNARE”写成通用高分泌策略，证据不够。
 
 ### 5.5 降解
 
 ERAD、液泡（Pep4、Prb1）和胞外/表面蛋白酶（yapsin 等）作用的阶段不同。敲除液泡蛋白酶常常提高上清中完整蛋白的比例，对容易被切割的小肽和不稳定酶更明显，也会改变细胞生理。减弱 ERAD 会让折叠慢的蛋白有更多时间完成折叠，也会让死蛋白堆积，加重 UPR。
 
-因此“少降解”不能代替“会折叠”。2024 年分泌组敲除的机制讨论更接近资源再分配：内源分泌蛋白占用核糖体、氨基酸、折叠机器和囊泡。敲掉六个非必需基因后，HSA 生产菌株里核糖体和 RNA 合成相关基因相对下调，复制相关基因相对上调，PDI1 和 KAR2 更高。这是转录组相关性加上产量表型，论文没有做完整的通量因果证明。而且 11 个敲除开始降低甲醇上的生长速率。存在一个窗口，不是敲得越多越好。[MCF 2024](https://link.springer.com/article/10.1186/s12934-024-02466-2)。
+降解发生的位置决定敲除有没有用。Zahrl 等 2018 年估计，新合成的 Fab 约 60% 在胞内被降解，破坏 ERAD-L 和蛋白酶体之后分泌增益很小，作者认为大部分 Fab 在进入分泌通路之前就已经被清掉。[Zahrl 等](https://doi.org/10.1099/mic.0.000630)。Wu 等 2013 年看的是已经分泌出去的人血清白蛋白融合肽：野生型完整蛋白约 30%，*pep4* 约 47%，*yps1* 约 42%，双敲超过 80%。这是完整比例，不是总分泌量变成了原来的两倍多。[Wu 等](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3656227/)。
+
+因此“少降解”不能代替“会折叠”。如果蛋白还没进内质网，敲 ERAD 几乎无效；如果蛋白已经分泌但被切开，敲蛋白酶提高的是完整分子比例。折叠仍然失败时，减少降解会把有毒中间体留在细胞内。2024 年分泌组敲除的机制讨论更接近资源再分配：内源分泌蛋白占用核糖体、氨基酸、折叠机器和囊泡。敲掉六个非必需基因后，HSA 生产菌株里核糖体和 RNA 合成相关基因相对下调，复制相关基因相对上调，PDI1 和 KAR2 更高。这是转录组相关性加上产量表型，论文没有做完整的通量因果证明。而且 11 个敲除开始降低甲醇上的生长速率。存在一个窗口，不是敲得越多越好。[MCF 2024](https://link.springer.com/article/10.1186/s12934-024-02466-2)。
 
 ### 5.6 糖基化
 
@@ -236,7 +252,7 @@ O-甘露糖基化比 N-糖更少被平台化解决。它可以用很少的位点
 
 方向确实在变，但完成度不高。已经有的系统级工具包括：过表达文库、基因缺失文库、CRISPR 筛选、转录组和蛋白质组、核糖体图谱，以及毕赤酵母基因组尺度代谢模型。FEMS 2025 综述认为代谢模型能指导特定蛋白，但预测精度仍然有限。
 
-2024–2025 年最有说服力的系统工作，仍是**小规模、有假设的筛选**（分泌组、早期通路模块），不是一次性重写整个分泌网络。Ribo-seq 预印本的三基因敲除只提高 HSA 35%，说明组学提名的靶点必须回到产量实验，而且增幅可能很小。[bioRxiv 2025，未经同行评议](https://www.biorxiv.org/content/10.1101/2025.02.12.637931v1)。
+2024–2025 年最有说服力的系统工作，仍是**小规模、有假设的筛选**（分泌组、早期通路模块），不是一次性重写整个分泌网络。Ribo-seq 指导的三基因敲除只提高 HSA 约 35%，部分双敲还低于亲本。定量来自预印本全文，正式发表为 Tafrishi 等，*Metabolic Engineering* 2025。[预印本](https://www.biorxiv.org/content/10.1101/2025.02.12.637931v1)；[期刊 DOI](https://doi.org/10.1016/j.ymben.2025.04.007)。组学提名的靶点必须回到产量实验，而且增幅可能很小。*HOC1* 也是一个分泌数量性状位点：在另外的分离株里敲掉完整 *HOC1*，β-葡萄糖苷酶分泌大约翻倍；把完整基因补回 CBS7435 则大约减半。[Offei 等，*PLOS Biology* 2022](https://doi.org/10.1371/journal.pbio.3001877)。这和 OPENPichia 利用 *hoc1* 截短是同一生物学，不是两个无关技巧。
 
 ### 5.8 代谢与分泌的耦合
 
@@ -284,7 +300,9 @@ O-甘露糖基化比 N-糖更少被平台化解决。它可以用很少的位点
 | 人血清白蛋白 | *K. phaffii* MutS | 诱导生物量和比生长速率 | 单次补料分批 | 摘要报告最高约 10 g/L | 发酵罐 | 书目未在本次核对年份 | Mallem 等，书目记录 | 高 | B |
 | 人血清白蛋白 | *K. phaffii* | 6 个内源分泌蛋白敲除 | 3 mL 微孔板，甲醇 24 h | 约 20 倍滴度和比产率；无绝对 g/L | 微孔板 | 2024 | MCF 23:217 | 机制重要，规模不可外推 | B |
 | 曲妥珠单抗 | *K. phaffii* | 同上 | 100 mL 摇瓶，OD600 40–50 | 约 2 倍 | 摇瓶 | 2024 | 同上 | 说明大蛋白收益小得多 | B |
-| 人血清白蛋白 | *K. phaffii* | Ribo-seq 指导的三敲除 | 未在摘要中给出可与上表对比的规模 | +35% | 未核定 | 2025 | bioRxiv，未同行评议 | 低，直到重复和放大 | D |
+| 人血清白蛋白 | *K. phaffii* | Ribo-seq 指导的三敲除 | GS115，甘油后转甲醇；精确规模以原文为准 | 约 +35%；部分双敲为亲本的 0.82 与 0.92 倍 | 未按发酵罐复核 | 2025 | Tafrishi 等，*Metabolic Engineering*；数字核对自预印本 | 低，直到独立放大 | C |
+| 胰岛素前体 | *K. phaffii* | 三阻遏因子敲除加 Mit1，无甲醇 | 5 L，葡萄糖转甘油 | 2.46 g/L，为甲醇对照 4.20 g/L 的约 59% | 5 L | 2017 | Wang 等，*Scientific Reports* | 无甲醇的同罐对照，不是更高产 | A |
+| 真菌 α-淀粉酶 | *S. cerevisiae* | 转运、染色质和糖代谢组合 | 补料分批 156 h | 2.5 g/L；98.5 g DCW/L；相对亲本 >5 倍 | 发酵罐 | 2018 | Huang 等，*PNAS* | 组合工程的克级锚点，蛋白是淀粉酶 | A |
 | 淀粉酶 / β-葡聚糖酶 / HSA | *K. phaffii* | 信号肽、3′ UTR、膜扩张、ERAD、运输的蛋白特异组合 | 摘要未说明是罐还是瓶 | 累计 5.2–6.4 倍；无绝对滴度 | 未核定 | 2025 | Xu 等，JAFC | 策略框架有用 | B |
 | 植酸酶 | *O. polymorpha* | 甲醇营养型高密度过程 | 补料发酵，摘要称中试至 2,000 L | 13.5 g/L，占上清蛋白 >97% | 中试 2,000 L | 摘要未再核年份 | Mayer 等，书目记录 | 这是目前更可信的酵母植酸酶克级数据 | B |
 | *Butiauxella* 植酸酶 | *K. phaffii* | 公司甲醇与无甲醇平台 | 公司称高密度生产 | 22 g/L 与 20 g/L | 未在公开论文中核对 | 公司页面；2023 综述转引 | VALIDOGEN | 若属实则高于上一行；目前按宣传记录 | C |
@@ -509,7 +527,7 @@ AOX1 工艺还有一个过程窗口：高表达会饱和分泌，综述把诱导
 
 - 同一蛋白在酿酒酵母、毕赤酵母、耶氏酵母、乳酸克鲁维酵母和汉逊酵母中，用各自最优而非各自默认工艺的对照。现在的“谁更强”大多是不同实验室、不同罐和不同分析方法的文献拼接。
 - 运输工程的绝对滴度。多数 2024 年论文给的是百分之几十，缺少独立重复。
-- 无甲醇系统与甲醇系统在同一菌株、同一蛋白、同一氧转移条件下的罐上对照。公司数据存在，学术对照不足。
+- 无甲醇系统与甲醇系统在已上市蛋白、同一氧转移条件下的工厂级对照。实验室里已经有对照：Wang 等 2017 的 5 L 胰岛素前体，无甲醇过程是甲醇过程的约 59%。缺的是更多蛋白和更大尺度，不是“完全没有学术对照”。
 - 分泌组削减在补料分批、多个治疗蛋白和食品蛋白上的表现。
 - O-糖的平台化控制。
 - 克隆稳定性和放大后的失败案例。论文几乎只报告成功克隆。
@@ -628,7 +646,7 @@ AOX1 工艺还有一个过程窗口：高表达会饱和分泌，综述把诱导
 
 7. 公司宣布的 20 g/L 和无论文绝对产量的“最高记录”，不能用来给平台排序。白蛋白 7–11 g/L 的补料分批文献更可信，但空间时间产率被很长的诱导时间拖累。
 
-8. 糖工程解决的是质量和监管属性。它经常伤害细胞壁和分泌，不应当被写成增产手段。OPENPichia 对 *HOC1* 的使用说明，糖链生理学本身就可以成为平台技术。
+8. 糖工程解决的是质量和监管属性。它经常伤害细胞壁和分泌，不应当被写成增产手段。OPENPichia 对 *HOC1* 的使用，以及 Offei 等 2022 年把 *HOC1* 鉴定为分泌数量性状位点，说明糖链生理学本身就可以成为平台技术。糖型也不是菌株建好就固定：Ohara 等 2025 年发现，SuperMan5 菌株上轮状病毒抗原和宿主分泌组的 N-糖、O-糖复杂度会随甲醇浓度改变。[Ohara 等](https://doi.org/10.1111/1751-7915.70272)。
 
 9. 毕赤酵母的领先是系统领先：诱导、密度、本底、培养基、先例和安全档案。单独比较某一个分泌基因的同源物，解释不了这种领先。酿酒酵母的领先是工具、基础生物学和更早的药政路径。
 
@@ -745,7 +763,27 @@ AOX1 工艺还有一个过程窗口：高表达会饱和分泌，综述把诱导
 - [Advances in Cell Engineering of the Komagataella phaffii Platform](https://www.mdpi.com/2218-1989/12/4/346)（Metabolites，2022）
 - [OPENPichia: licence-free Komagataella phaffii chassis strains and toolkit](https://www.nature.com/articles/s41564-023-01574-w)（Nature Microbiology，2024-03-04）
 - [CRISPR-Cas9 knockout screen informs efficient reduction of the Komagataella phaffii secretome](https://link.springer.com/article/10.1186/s12934-024-02466-2)（Microbial Cell Factories，2024-07-31）
-- [Ribo-seq guided design of enhanced protein secretion in Komagataella phaffii](https://www.biorxiv.org/content/10.1101/2025.02.12.637931v1)（bioRxiv，2025-02-16，未经同行评议）
+- [Ribo-seq guided design of enhanced protein secretion in Komagataella phaffii](https://www.biorxiv.org/content/10.1101/2025.02.12.637931v1)（bioRxiv，2025-02-16；正式发表见 [Metabolic Engineering 2025](https://doi.org/10.1016/j.ymben.2025.04.007)，定量核对自预印本）
+- [Cámara et al., Scientific Reports 2017](https://doi.org/10.1038/srep44302)
+- [Edwards-Jones et al., PLOS ONE 2015](https://doi.org/10.1371/journal.pone.0119637)
+- [Theron et al., Scientific Reports 2020](https://www.nature.com/articles/s41598-020-58683-3)
+- [Wang et al., Scientific Reports 2017](https://www.nature.com/articles/srep41850)
+- [Garrigós-Martínez et al., Microbial Cell Factories 2021](https://doi.org/10.1186/s12934-021-01564-9)
+- [Gasser et al., Biotechnology and Bioengineering 2006](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/bit.20851)
+- [Love et al., PLOS ONE 2012](https://doi.org/10.1371/journal.pone.0037915)
+- [Fitzgerald and Glick, Microbial Cell Factories 2014](https://doi.org/10.1186/s12934-014-0125-0)
+- [Barrero et al., Microbial Cell Factories 2018](https://doi.org/10.1186/s12934-018-1009-5)
+- [Wu et al., Synthetic and Systems Biotechnology 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12348225/)
+- [Ito and colleagues, Communications Biology 2022](https://doi.org/10.1038/s42003-022-03475-w)
+- [Guerfal et al., Microbial Cell Factories 2010](https://doi.org/10.1186/1475-2859-9-49)
+- [de Ruijter et al., Microbial Cell Factories 2016](https://doi.org/10.1186/s12934-016-0488-5)
+- [Bao et al., Applied and Environmental Microbiology 2017](https://doi.org/10.1128/AEM.03400-16)
+- [Huang et al., PNAS 2018](https://doi.org/10.1073/pnas.1809921115)
+- [Zahrl et al., Microbiology 2018](https://doi.org/10.1099/mic.0.000630)
+- [Wu et al., Journal of Industrial Microbiology and Biotechnology 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3656227/)
+- [Offei et al., PLOS Biology 2022](https://doi.org/10.1371/journal.pbio.3001877)
+- [Ohara et al., Microbial Biotechnology 2025](https://doi.org/10.1111/1751-7915.70272)
+- [SignalP 6.0](https://doi.org/10.1038/s41587-021-01156-3)
 - [Optimization of multiple combinations of early secretion pathways](https://pubs.acs.org/doi/abs/10.1021/acs.jafc.5c03402)（Journal of Agricultural and Food Chemistry，2025-07-05）
 - [The α-mating factor secretion signals and endogenous signal peptides](https://link.springer.com/article/10.1186/s13068-022-02243-6)（Biotechnology for Biofuels and Bioproducts，2022）
 - [Higher induction temperatures and the native secretion signal peptide promote rye prolamin production](https://link.springer.com/article/10.1186/s12934-025-02809-7)（Microbial Cell Factories，2025）
