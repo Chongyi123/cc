@@ -254,10 +254,10 @@ O-甘露糖基化比 N-糖更少被平台化解决。它可以用很少的位点
 
 | 类别 | 常见宿主 | 本次能核对的产量量级 | 主要难点 | 产业化 | 主要竞争者 |
 |---|---|---|---|---|---|
-| 工业酶（植酸酶、脂肪酶、淀粉酶） | 毕赤酵母、耶氏酵母；大量商品酶其实来自丝状真菌 | 植酸酶：公司称甲醇工艺 22 g/L、无甲醇 20 g/L。耶氏酵母同源脂肪酶 10 L 罐 4.13 g/L。学术相对提升多为数倍 | 热稳定性、蛋白酶、甲醇工艺、下游收率 | 是，但是很多最大宗的酶不在酵母 | 黑曲霉、里氏木霉、芽孢杆菌 |
+| 工业酶（植酸酶、脂肪酶、淀粉酶） | 毕赤酵母、汉逊酵母、耶氏酵母；大量商品酶其实来自丝状真菌 | 汉逊酵母植酸酶有同行评议摘要级记录：13.5 g/L，占上清蛋白 97% 以上，并中试到 2,000 L。公司另称毕赤酵母植酸酶 20–22 g/L。耶氏酵母同源脂肪酶 10 L 罐 4.13 g/L。丝状真菌 C1 平台论文报告酶混合物总量可到约 100 g/L | 热稳定性、蛋白酶、甲醇工艺、下游收率 | 是，但是很多最大宗的酶不在酵母 | 黑曲霉、里氏木霉、芽孢杆菌、*Myceliophthora thermophila* |
 | 食品酶 | 毕赤酵母、乳酸克鲁维酵母、酿酒酵母 | 公开绝对滴度分散 | 法规、残留宿主蛋白、标签 | 是 | 丝状真菌、天然酶 |
-| 重组人源蛋白（白蛋白等） | 毕赤酵母为主 | 补料分批文献转述约 7–11 g/L 量级，诱导时间很长 | 蛋白酶、诱导时长、空间时间产率 | 是，如 Medway | 水稻、酿酒酵母 |
-| 全长抗体 | 糖工程毕赤酵母有工艺研究；已上市例子是 eptinezumab | 书目记录转述约 1.6 g/L 并放大到 1200 L；未核对原文。CHO 商业滴度通常更高一个量级，本文不引用未检索的 CHO 具体数字 | 糖型、组装、滴度、效应功能 | 个别产品已上市，不是主流 | CHO |
+| 重组人源蛋白（白蛋白等） | 毕赤酵母与酿酒酵母都有商业产品 | 毕赤酵母补料分批文献转述约 7–11 g/L，诱导时间很长。Recombumin 品牌的生产宿主是酿酒酵母，不是毕赤酵母 | 蛋白酶、诱导时长、空间时间产率 | 是 | 水稻、两种酵母彼此竞争 |
+| 全长抗体 | 糖工程毕赤酵母有工艺研究；已上市例子是 eptinezumab | 书目记录转述约 1.6 g/L 并放大到 1200 L；未核对原文。2019 年一项四宿主比较没有从酵母中回收到完整抗 CD20 IgG。一篇 2026 年综述转引的 CHO 生产规模滴度约为 3–8 g/L | 糖型、组装、滴度、效应功能 | 个别产品已上市，不是主流 | CHO |
 | 抗体片段、纳米抗体 | 毕赤酵母最常见 | 本次核对到的一篇工艺报道为 5 L 罐 260 mg/L。这不是品类上限 | 二硫键、片段稳定性、正确组装 | 有商业生产，尤其是纳米抗体开发史 | 大肠杆菌（周质或复性）、CHO |
 | 细胞因子 | 酿酒酵母有历史产品 | 公开滴度差异极大 | 二硫键、糖、蛋白酶切割 | 有，如历史 GM-CSF 讨论见第 9 节 | 大肠杆菌、CHO |
 | 生长因子 | 酿酒酵母（becaplermin） | 本次未核对绝对发酵滴度 | 二硫键与活性 | 有上市史 | 大肠杆菌、CHO |
@@ -267,9 +267,9 @@ O-甘露糖基化比 N-糖更少被平台化解决。它可以用很少的位点
 | 难表达蛋白 | 没有固定宿主 | 往往只有相对倍数 | 瓶颈类别未知 | 个案 | 多系统并行试 |
 | 胶原 / 明胶样蛋白 | 毕赤酵母 | Ⅲ 型人源样胶原在 5 L 补料分批、诱导后 66 h 为 1.05 g/L，湿重 270 g/L。羟基化需要额外脯氨酰羟化酶，不能把“类胶原序列”当成全羟基化胶原 | 羟基化、三螺旋、降解 | 食品和医美原料在发展，治疗级证据另计 | 动物组织、重组哺乳动物/植物系统 |
 | 细胞外基质蛋白 | 个案 | 公开资料不足 | 分子量、重复序列、修饰 | 早期 | 哺乳动物细胞 |
-| 替代食品蛋白 | 毕赤酵母已有监管案例 | 商业质量浓度多数不在论文里。研究用分泌型大豆血红蛋白在 5 L 罐到 1.1 g/L | 成本必须接近食品，而不是药品；宿主蛋白残留和过敏原 | 是，已有 GRAS 结论 | 丝状真菌、植物 |
+| 替代食品蛋白 | 毕赤酵母与丝状真菌都有已关闭的监管档案 | 商业质量浓度多数不公开。研究用分泌型大豆血红蛋白在 5 L 罐到 1.1 g/L。β-乳球蛋白既有毕赤酵母案例，也有里氏木霉案例 | 成本必须接近食品，而不是药品；宿主蛋白残留和过敏原 | 是，已有 GRAS 或监管无异议函 | 丝状真菌、植物、大肠杆菌 |
 
-胶原数字来自 [PMC10992891](https://pmc.ncbi.nlm.nih.gov/articles/PMC10992891/)。Fab 的 260 mg/L 来自工艺媒体报道，不是本次打开的同行评议全文：[BioProcess International](https://www.bioprocessintl.com/expression-platforms/expression-of-a-fab-fragment-in-cho-and-pichia-pastoris)。植酸酶的 20–22 g/L 来自公司页面，并由 2023 年产业综述转引，见第 7、9 节。
+胶原数字来自 [PMC10992891](https://pmc.ncbi.nlm.nih.gov/articles/PMC10992891/)。Fab 的 260 mg/L 来自工艺媒体报道，不是本次打开的同行评议全文：[BioProcess International](https://www.bioprocessintl.com/expression-platforms/expression-of-a-fab-fragment-in-cho-and-pichia-pastoris)。汉逊酵母植酸酶 13.5 g/L 来自同行评议论文的摘要级书目，中试规模 2,000 L：[Mayer 等摘要记录](https://exa.ai/library/publication/rg3bwyhh9j5)。毕赤酵母植酸酶 20–22 g/L 仍是公司页面。C1 平台约 100 g/L 总蛋白见 [平台论文记录](https://www.researchgate.net/publication/216224564_RESEARCH_Development_of_a_mature_fungal_technology_and_production_platform_for_industrial_enzymes_based_on_a_Myceliophthora_thermophila_isolate_previously_known_as_Chrysosporium_lucknowense_C1)。抗 CD20 的阴性结果见 [Jiang 等，*Biotechnology and Bioengineering* 2019](https://pubmed.ncbi.nlm.nih.gov/30739333/)。CHO 的 3–8 g/L 是 [2026 年综述](https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1765764/full) 对既有文献的转引。
 
 ---
 
@@ -286,7 +286,8 @@ O-甘露糖基化比 N-糖更少被平台化解决。它可以用很少的位点
 | 曲妥珠单抗 | *K. phaffii* | 同上 | 100 mL 摇瓶，OD600 40–50 | 约 2 倍 | 摇瓶 | 2024 | 同上 | 说明大蛋白收益小得多 | B |
 | 人血清白蛋白 | *K. phaffii* | Ribo-seq 指导的三敲除 | 未在摘要中给出可与上表对比的规模 | +35% | 未核定 | 2025 | bioRxiv，未同行评议 | 低，直到重复和放大 | D |
 | 淀粉酶 / β-葡聚糖酶 / HSA | *K. phaffii* | 信号肽、3′ UTR、膜扩张、ERAD、运输的蛋白特异组合 | 摘要未说明是罐还是瓶 | 累计 5.2–6.4 倍；无绝对滴度 | 未核定 | 2025 | Xu 等，JAFC | 策略框架有用 | B |
-| *Butiauxella* 植酸酶 | *K. phaffii* | 公司甲醇与无甲醇平台 | 公司称高密度生产 | 22 g/L 与 20 g/L | 未在公开论文中核对 | 公司页面；2023 综述转引 | VALIDOGEN | 若属实则是酶的工业级；目前按宣传记录 | C |
+| 植酸酶 | *O. polymorpha* | 甲醇营养型高密度过程 | 补料发酵，摘要称中试至 2,000 L | 13.5 g/L，占上清蛋白 >97% | 中试 2,000 L | 摘要未再核年份 | Mayer 等，书目记录 | 这是目前更可信的酵母植酸酶克级数据 | B |
+| *Butiauxella* 植酸酶 | *K. phaffii* | 公司甲醇与无甲醇平台 | 公司称高密度生产 | 22 g/L 与 20 g/L | 未在公开论文中核对 | 公司页面；2023 综述转引 | VALIDOGEN | 若属实则高于上一行；目前按宣传记录 | C |
 | AppA 植酸酶 | *K. phaffii* | 双向启动子共表达折叠因子，含 Erv2 | 以论文实验设置为准 | 相对 AOX1 状态约 2.9 倍 | 未在此复述 | 2021 | Navone 等 | 二硫键工程必须配 PDI | B |
 | 碱性蛋白酶 PrtA | *K. phaffii* | 突变、MPEPE、自身信号肽 | 15 L 补料分批 | 4807.5 U/mL。摘要 1.5 g/L 与正文 15 g/L 矛盾，质量浓度不采用 | 15 L | 2026 | MCF | 信号肽教训可靠，克级数字不可用 | C |
 | 大豆血红蛋白 | *K. phaffii* | α 因子 V50A，μ-STAT 甲醇补料 | 5 L 补料分批 | 由 656.5 mg/L 至 1.1 g/L | 5 L | 2025 | *Process Biochemistry* 书目 | 研究工艺；与商业胞内路线分开看 | B |
@@ -342,35 +343,42 @@ O-甘露糖基化比 N-糖更少被平台化解决。它可以用很少的位点
 **酿酒酵母**
 
 - 多种胰岛素和胰岛素类似物：NovoRapid/NovoLog、Levemir、Tresiba、Fiasp、Ryzodeg 等，表中标明 *S. cerevisiae*。
-- GLP-1 受体激动剂的肽骨架：利拉鲁肽、司美格鲁肽由酿酒酵母生产后再做脂肪酸侧链的化学修饰。
-- 胰高血糖素 Glucagen。
+- GLP-1 受体激动剂的肽骨架：2022 年审批表把利拉鲁肽和司美格鲁肽写成酿酒酵母生产后再做脂肪酸侧链化学修饰。2021 年 Wegovy 说明书只写 “produced by yeast fermentation”，没有写种名，因此种名以审批表为准、以该份说明书为下限。[Wegovy 说明书](https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/215256s000lbl.pdf)。
+- 胰岛素的产业分割是明确的。EMA 的 NovoRapid 产品信息写明门冬胰岛素由 *S. cerevisiae* 生产。2024 年综述估计，全球药用胰岛素约一半来自酿酒酵母的分泌型前体。礼来 Humulin 和赛诺菲来得时（甘精胰岛素）的现行说明书写的是大肠杆菌。[NovoRapid](https://www.ema.europa.eu/en/documents/product-information/novorapid-epar-product-information_en.pdf)；[Kjeldsen 等，*Trends in Biotechnology* 2024](https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(23)00286-X)；[Humulin R](https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=b519bd83-038c-4ec5-a231-a51ec5cc291f&type=pdf)；[Lantus](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6328c99d-d75f-43ef-b19e-7e71f91e57f6)。
+- 胰高血糖素 Glucagen。2021 年说明书写 *S. cerevisiae*。[GlucaGen](https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/020918s056lbl.pdf)。
+- GM-CSF（Leukine，sargramostim）。现行 DailyMed 说明书写 *S. cerevisiae*，并承认酵母糖链可以不同于天然蛋白。2022 年审批表里有一行写成大肠杆菌，与说明书冲突；以说明书为准。[Leukine](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb9a3820-f31a-4dd9-bef4-97094c01a398)。
+- 重组人血清白蛋白 Recombumin。Sartorius Albumedix 的产品页写专有 *S. cerevisiae* 工艺，不是毕赤酵母。[Recombumin](https://www.sartorius.com/en/products/cell-culture-reagents-supplements/recombinant-human-albumin)。这是公司页面。
 - 因子 XIII A 亚基 catridecog。
 - 乙肝疫苗抗原：Recombivax/HBVAXPRO 以及多种联合疫苗中的 HBsAg 组分。胞内表达。
 - HPV 疫苗 Gardasil 与 Gardasil 9 的 L1 蛋白。胞内 VLP。
 - 疟疾疫苗 Mosquirix/RTS,S 相关列表中的酿酒酵母抗原。胞内颗粒。
-- 血小板衍生生长因子 becaplermin（Regranex）。欧盟适应症曾撤出，美国历史批准在表中。
-- 尿酸氧化酶 rasburicase。
-- 水蛭素类似物 lepirudin、desirudin，表中为酿酒酵母，且已撤市。
+- 血小板衍生生长因子 becaplermin（Regranex）。2019 年说明书写 *S. cerevisiae* 中表达的 PDGF B 链同源二聚体。[Regranex](https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/103691s5138lbl.pdf)。
+- 尿酸氧化酶 rasburicase（Elitek）。DailyMed 写 *S. cerevisiae*，cDNA 来自黄曲霉。[Elitek](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922)。
+- 水蛭素类似物：2006 年 Refludan 说明书写 “yeast cells”，没有写种名。审批表把 lepirudin 和 desirudin 标为酿酒酵母，且均已撤市。[Refludan](https://www.accessdata.fda.gov/drugsatfda_docs/label/2006/020807s011lbl.pdf)。
 
 **毕赤酵母**
 
 - 胰岛素 glargine 生物类似药 Semglee、人胰岛素 Myxredlin 与 Inpremzia、门冬胰岛素 Kirsty，表中标明 *P. pastoris*。
-- ecallantide（Kalbitor），2009 年美国批准。
+- ecallantide（Kalbitor）。2020 年说明书确认宿主为 *P. pastoris*，60 个氨基酸，不是抗体。[Kalbitor](https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/125277s081lbl.pdf)。
 - ocriplasmin（Jetrea）。
-- 全长 IgG1 eptinezumab（Vyepti），2020 年美国、2022 年欧盟。这是“酵母不能做全长抗体”这一说法的直接反例，也是“酵母将取代 CHO”这一说法的边界：它是一个产品，不是平台更替。
+- 全长 IgG1 eptinezumab（Vyepti），2020 年美国、2022 年欧盟。这是“酵母不能做全长抗体”这一说法的直接反例，也是“酵母将取代 CHO”这一说法的边界：它是一个产品，不是平台更替。GlycoFi 被默克收购后，向投资者介绍的候选物是聚乙二醇化 EPO（MK-2578），不是抗体；黎巴嫩研发场地在 2016 年腾空。没有找到获批的 GlycoFi 抗体。[*Nature Biotechnology* 2009](https://www.nature.com/articles/nbt0409-299)；[Valley News，2016](https://vnews.com/2016/05/15/glycofi-vacates-dartmouth-regional-technology-center-in-lebanob-2111063/)。
 - 大豆血红蛋白：FDA GRN 737 描述生产菌株为 *Pichia pastoris* MXY0291；GRN 1202 于 2025 年 3 月 7 日关闭，FDA 无问题函，生产菌写为 *K. phaffii*。该蛋白是血红素蛋白，商业档案强调的是菌株和血红素供给，不是 α 因子分泌滴度。[GRN 737](https://www.fda.gov/media/124351/download)；[GRN 1202](https://hfpappexternal.fda.gov/scripts/fdcc/?id=1202&set=GrASNotices)。
+- 卵白蛋白：FDA GRN 1104（The EVERY Company / Clara Foods）的生产菌是 *K. phaffii* ATCC GSD-1235。[GRN 1104](https://www.fda.gov/media/170789/download)。
+- β-乳球蛋白：Remilk 的菌株是 *K. phaffii* yRMK-66，加拿大卫生部无异议函写明分泌后纯化，亲本为 CBS 7435。[Health Canada](https://www.canada.ca/en/health-canada/services/food-nutrition/genetically-modified-foods-other-novel-foods/approved-products/b-lactoglobulin-protein-komagataella-phaffii-yrmk-66/document.html)。Vivici 的 GRN 1200 于 2025 年 2 月 28 日关闭，FDA 无问题函，菌株为 *K. phaffii* VIPLA，由 ATCC 76273 构建。[GRN 1200](https://www.fda.gov/media/187493/download)。
 
 **多形汉逊酵母**
 
 - HEPLISAV-B 的 HBsAg。说明书写明在重组 *Hansenula polymorpha* 中表达，**胞内**生产，破壁后纯化。[FDA 说明书](https://www.fda.gov/media/108745/download)。
 - Hexacima/Hexyon 联合疫苗中的 HBsAg 组分，审批表标明 *H. polymorpha*。
 
-**需要谨慎的条目**
+**不是酵母，或宿主仍未公开**
 
-- 2023 年酵母生物药综述把 Leukine（sargramostim）列为酿酒酵母产品；Nature Biotechnology 2022 表的对应行写成大肠杆菌。历史处方信息通常写酵母。两份二手汇总冲突，应以当前药品说明书为准。本文不把 Leukine 写成没有争议的证据。[酵母平台综述](https://pmc.ncbi.nlm.nih.gov/articles/PMC10512354/)；[审批表](http://nature.com/articles/s41587-022-01582-x/tables/1)。
-- The EVERY Company 的卵白蛋白常被二次来源联系到 FDA GRN 1104 和 *K. phaffii*。本次没有打开该 GRAS 通知原文，因此不把它写成已核实事实。
-- Perfect Day 的 β-乳球蛋白在本次检索中没有核实到酵母宿主。不把它算作酵母案例。公开讨论里它常与丝状真菌一起出现，那也只是未在此核实的背景。
-- 2023 年产业综述的公司表把 Dyax、Biocon、Mitsubishi Tanabe、Shantha/Sanofi、FibroGen、Impossible Foods 等列为毕赤酵母相关实体。表是综述整理，不等于每个产品都经过本文逐份年报核对。其中 Medway 人血清白蛋白、Kalbitor、Impossible Foods 与审批或 GRAS 文件一致的部分，可信度更高。[Biomolecules 综述 PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10046876/)。
+- Perfect Day 的 β-乳球蛋白是里氏木霉 *Trichoderma reesei* QM6a，不是酵母。FDA 对 GRN 863 的回函写明菌株 QM6a-PD1。[GRN 863](https://www.fda.gov/media/136751/download)。
+- Formo 的 αS1-酪蛋白档案 GRN 1312 写的是大肠杆菌 DSM 35603。检索时 FDA 状态为 Pending，不是已关闭的酵母产品。[GRN 1312](https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=1312&set=GRASNotices)。
+- Those Vegan Cowboys 的公开页面写的是真菌筛选，没有给出生产种名。New Culture 的专利把酵母列在可选宿主清单里，这不是工厂披露。
+- Dyadic 的 C1 平台是丝状真菌 *Myceliophthora thermophila*，不是毕赤酵母。
+- Medway 人血清白蛋白在许可方产品表里被标为毕赤酵母。本次没有打开 PMDA 说明书，商品名的当前许可状态仍以监管原文为准。
+- 2023 年产业综述的公司表把 Dyax、Biocon、Mitsubishi Tanabe、Shantha/Sanofi、FibroGen、Impossible Foods 等列为毕赤酵母相关实体。表是综述整理。其中 Kalbitor 和 Impossible Foods 已有独立监管文件。RCT 产品页还声称 70 个以上上市或后期产品；该页是许可方清单，不能逐条当成已复核的批准文件。[pichia.com 产品表](https://pichia.com/science-center/commercialized-products/)。
 
 ### 9.2 工业指标和论文指标
 
@@ -386,7 +394,9 @@ O-甘露糖基化比 N-糖更少被平台化解决。它可以用很少的位点
 - 下游收率和杂质清除，而不是上清里的总蛋白。
 - 档案能否申报：菌株谱系、抗生素标记、基因组序列、生产规模批次。
 
-VALIDOGEN 称 *Butiauxella* 植酸酶在甲醇工艺 22 g/L、无甲醇工艺 20 g/L，并称为酵母重组植酸酶的最高公开水平。2023 年综述转引了这一说法。在独立实验室论文复核之前，这两数字应视为**公司宣传**。[VALIDOGEN](https://www.validogen.com/technology/unlock-pichia-technology/methanol-free-protein-expression)。
+VALIDOGEN 称 *Butiauxella* 植酸酶在甲醇工艺 22 g/L、无甲醇工艺 20 g/L，并另称乳清蛋白可达 30 g/L、技术转移规模可达 10 万升。这些是供应商页面，不是独立重复实验。[发酵服务页](https://www.validogen.com/services/pichia-fermentation-process-development)；[食品饲料页](https://www.validogen.com/applications/food-feed)。更适合当作对照的同行评议数字，是汉逊酵母植酸酶 13.5 g/L、中试至 2,000 L。Lonza 销售的 XS Pichia 是葡萄糖调控、无甲醇系统，其公开说明的设备范围是 50 L 到 15,000 L，目标是复杂但非糖基化的分泌蛋白。这也是公司说明。[Lonza](https://www.lonza.com/knowledge-center/biologics/i/xs-pichia-interview)。
+
+AOX1 工艺还有一个过程窗口：高表达会饱和分泌，综述把诱导期比生长速率控制在约 0.04/h 以下当作实用区间。[Madhavan 等，*Microbial Cell Factories* 2021](https://link.springer.com/article/10.1186/s12934-021-01617-z)。解脂耶氏酵母到 2019 年已有 150 多种重组蛋白报道，其中只有 25 种进入过生物反应器。[Vandermies 与 Fickers，*Microorganisms* 2019](https://www.mdpi.com/2076-2607/7/2/40)。发表数量和可放大工艺不是同一件事。
 
 ---
 
@@ -770,6 +780,6 @@ VALIDOGEN 称 *Butiauxella* 植酸酶在甲醇工艺 22 g/L、无甲醇工艺 20
 
 - PrtA 的 1.5 g/L 与 15 g/L 并存，只用 4807.5 U/mL。
 - 未把二次来源中的 17 g/L 级白蛋白数字写入结论。检索摘要残缺，无法核对。
-- 未把 GRN 1104 卵白蛋白写成已打开原始档案的事实。
-- 未指定 Perfect Day 的宿主。
+- GRN 1104、GRN 863、GRN 1200 和 Remilk 的加拿大文件已在后续核对中补入，并改写了第 9 节。
 - 未把 Sc2.0、合成细胞器或分泌数字孪生写成已有生产证明的技术。
+- 汉逊酵母植酸酶 13.5 g/L 来自摘要级书目，未打开全文图表。
